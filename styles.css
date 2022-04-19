@@ -16,7 +16,8 @@ div {
 }
 
 hr {
-  margin: 5px;
+  margin: 10px;
+  border: 1px dashed;
 }
 
 #footer {
@@ -71,6 +72,21 @@ li {
   margin-top: 10px;
   margin-right: 5%;
 
+}
+
+.footer div {
+  font-family: Sacramento;
+  color: #ACD7EC;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5%;
+}
+
+div.visit-counter {
+  font-family: Sacramento;
+  padding-top: 15px;
+  text-align: center;
+  color: #ACD7EC;
 }
 
 @media only screen and (max-width: 430px) {
